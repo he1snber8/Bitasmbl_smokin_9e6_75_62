@@ -9,6 +9,7 @@
     update: Task;
   }>();
 
+
   let isEditing = false;
   let editedTitle = task.title;
 

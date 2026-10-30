@@ -3,61 +3,15 @@
   "projectApplicationId": 75,
   "requirementId": 902,
   "files": [
-    "frontend/src/components/TaskForm.svelte",
-    "frontend/src/components/taskCard.svelte",
-    "frontend/src/features/tasks/task.svelte"
+    "frontend/src/components/taskCard.svelte"
   ],
   "activityMeta": [
     {
-      "file": "frontend/src/features/tasks/task.svelte",
-      "requirementId": 902,
-      "lastModified": "2026-10-30T15:27:17.517Z",
-      "activity": {
-        "idleBreaks": 0,
-        "intervalSamples": [
-          {
-            "interval": 0,
-            "diffStats": {
-              "linesAdded": 148,
-              "linesDeleted": 0
-            }
-          }
-        ],
-        "medianEditIntervalSec": 0
-      },
-      "sourceHints": {
-        "possiblePaste": false,
-        "suspiciousJump": false
-      }
-    },
-    {
-      "file": "frontend/src/components/TaskForm.svelte",
-      "requirementId": 902,
-      "lastModified": "2026-10-30T15:30:00.615Z",
-      "activity": {
-        "idleBreaks": 0,
-        "intervalSamples": [
-          {
-            "interval": 0,
-            "diffStats": {
-              "linesAdded": 29,
-              "linesDeleted": 0
-            }
-          }
-        ],
-        "medianEditIntervalSec": 0
-      },
-      "sourceHints": {
-        "possiblePaste": false,
-        "suspiciousJump": false
-      }
-    },
-    {
       "file": "frontend/src/components/taskCard.svelte",
       "requirementId": 902,
-      "lastModified": "2026-10-30T15:30:26.885Z",
+      "lastModified": "2026-10-30T15:43:27.884Z",
       "activity": {
-        "idleBreaks": 0,
+        "idleBreaks": 1,
         "intervalSamples": [
           {
             "interval": 0,
@@ -65,13 +19,20 @@
               "linesAdded": 88,
               "linesDeleted": 0
             }
+          },
+          {
+            "diffStats": {
+              "linesAdded": 1,
+              "linesDeleted": 0
+            },
+            "interval": 780
           }
         ],
-        "medianEditIntervalSec": 0
+        "medianEditIntervalSec": 390
       },
       "sourceHints": {
         "possiblePaste": false,
-        "suspiciousJump": false
+        "suspiciousJump": true
       }
     }
   ]
