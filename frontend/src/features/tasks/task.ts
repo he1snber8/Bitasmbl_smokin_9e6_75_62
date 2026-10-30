@@ -1,3 +1,31 @@
+/**
+ * Score: 17/100 | STATUS: FAIL ❌
+ */
+
+/**
+ * -- Task status modeled as boolean rather than distinct status states. --
+ *
+ * Issue: AC 68 requires task status such as todo, active, and completed, but Task model only defines completed: boolean.
+ *
+ * Impact: Fails to satisfy multi-stage task workflow requirements.
+ *
+ * Suggestion: Replace boolean completed with a union type status: 'todo' | 'active' | 'completed'.
+ */
+
+/**
+ * Score: 17/100 | STATUS: FAIL ❌
+ */
+
+/**
+ * -- Svelte component markup and script placed in a .ts file instead of .svelte. --
+ *
+ * Issue: Component markup with template blocks cannot be parsed by standard TypeScript compilers under .ts extension.
+ *
+ * Impact: Fails frontend compilation unless renamed to .svelte and properly recognized by Vite/Svelte plugins.
+ *
+ * Suggestion: Rename frontend/src/features/tasks/task.ts to Task.svelte or extract script logic into a separate TypeScript module.
+ */
+
 <script lang="ts">
   export interface Task {
     id: string;

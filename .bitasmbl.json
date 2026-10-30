@@ -18,7 +18,11 @@
       "id": 902,
       "header": "Build task components",
       "description": "Build reusable task components for listing, creating, editing, and deleting tasks.",
-      "paths": ["**/src/lib/components/tasks/**", "**/src/features/tasks/**"]
+      "paths": [
+        "**/src/lib/components/tasks/**",
+        "**/src/features/tasks/**",
+        "**/src/components/**"
+      ]
     },
     {
       "id": 903,
