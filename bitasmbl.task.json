@@ -1,139 +1,27 @@
 {
   "projectApplicationLinkedRepoId": 62,
   "projectApplicationId": 75,
-  "requirementId": 901,
+  "requirementId": 902,
   "files": [
-    "frontend/src/routes/route.ts"
+    "frontend/src/features/tasks/task.ts"
   ],
   "activityMeta": [
     {
-      "file": "frontend/src/routes/route.ts",
-      "requirementId": 901,
-      "lastModified": "2026-10-30T15:01:45.869Z",
+      "file": "frontend/src/features/tasks/task.ts",
+      "requirementId": 902,
+      "lastModified": "2026-10-30T15:19:45.549Z",
       "activity": {
-        "idleBreaks": 4,
+        "idleBreaks": 0,
         "intervalSamples": [
           {
             "interval": 0,
             "diffStats": {
-              "linesAdded": 12,
+              "linesAdded": 118,
               "linesDeleted": 0
             }
-          },
-          {
-            "diffStats": {
-              "linesAdded": 12,
-              "linesDeleted": 0
-            },
-            "interval": 14
-          },
-          {
-            "diffStats": {
-              "linesAdded": 12,
-              "linesDeleted": 0
-            },
-            "interval": 346
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 683
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 11
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 624
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 1
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 122
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 17
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 1117
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 2
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 44
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 5
-          },
-          {
-            "diffStats": {
-              "linesAdded": 2,
-              "linesDeleted": 1
-            },
-            "interval": 91
-          },
-          {
-            "diffStats": {
-              "linesAdded": 0,
-              "linesDeleted": 0
-            },
-            "interval": 5
-          },
-          {
-            "diffStats": {
-              "linesAdded": 28,
-              "linesDeleted": 0
-            },
-            "interval": 32
-          },
-          {
-            "diffStats": {
-              "linesAdded": 33,
-              "linesDeleted": 3
-            },
-            "interval": 25
           }
         ],
-        "medianEditIntervalSec": 25
+        "medianEditIntervalSec": 0
       },
       "sourceHints": {
         "possiblePaste": false,
