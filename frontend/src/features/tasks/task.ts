@@ -7,8 +7,9 @@
 
   let tasks: Task[] = [
     { id: '1', title: 'Design user interface', completed: false },
-    { id: '2', title: 'Implement backend API', completed: true },
+    { id: '2', title: 'Implement backend API Yo', completed: true },
   ];
+
 
   let newTaskTitle = '';
   let editingId: string | null = null;
