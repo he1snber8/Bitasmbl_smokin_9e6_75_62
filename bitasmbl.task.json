@@ -3,36 +3,29 @@
   "projectApplicationId": 75,
   "requirementId": 902,
   "files": [
-    "frontend/src/components/taskCard.svelte"
+    "frontend/src/components/TaskForm.svelte"
   ],
   "activityMeta": [
     {
-      "file": "frontend/src/components/taskCard.svelte",
+      "file": "frontend/src/components/TaskForm.svelte",
       "requirementId": 902,
-      "lastModified": "2026-10-30T15:43:27.884Z",
+      "lastModified": "2026-10-30T15:30:00.615Z",
       "activity": {
-        "idleBreaks": 1,
+        "idleBreaks": 0,
         "intervalSamples": [
           {
             "interval": 0,
             "diffStats": {
-              "linesAdded": 88,
+              "linesAdded": 29,
               "linesDeleted": 0
             }
-          },
-          {
-            "diffStats": {
-              "linesAdded": 1,
-              "linesDeleted": 0
-            },
-            "interval": 780
           }
         ],
-        "medianEditIntervalSec": 390
+        "medianEditIntervalSec": 0
       },
       "sourceHints": {
         "possiblePaste": false,
-        "suspiciousJump": true
+        "suspiciousJump": false
       }
     }
   ]

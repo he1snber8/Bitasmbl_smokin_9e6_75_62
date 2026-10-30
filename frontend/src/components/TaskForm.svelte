@@ -8,7 +8,7 @@
   function handleSubmit() {
     if (!title.trim()) return;
     dispatch('add', title.trim());
-    title = '';
+    title = 'Meow';
 
   }
 </script>

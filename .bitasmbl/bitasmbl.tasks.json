@@ -1,0 +1,310 @@
+{
+  "fileMappings": [
+    {
+      "file": "frontend/src/routes/route.ts",
+      "requirementId": 901,
+      "lastModified": "2026-10-30T15:20:57.019Z",
+      "activity": {
+        "idleBreaks": 5,
+        "intervalSamples": [
+          {
+            "interval": 0,
+            "diffStats": {
+              "linesAdded": 12,
+              "linesDeleted": 0
+            }
+          },
+          {
+            "diffStats": {
+              "linesAdded": 12,
+              "linesDeleted": 0
+            },
+            "interval": 14
+          },
+          {
+            "diffStats": {
+              "linesAdded": 12,
+              "linesDeleted": 0
+            },
+            "interval": 346
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 1
+            },
+            "interval": 683
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 11
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 1
+            },
+            "interval": 624
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 1
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 1
+            },
+            "interval": 122
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 17
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 1
+            },
+            "interval": 1117
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 2
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 1
+            },
+            "interval": 44
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 5
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 1
+            },
+            "interval": 91
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 5
+          },
+          {
+            "diffStats": {
+              "linesAdded": 28,
+              "linesDeleted": 0
+            },
+            "interval": 32
+          },
+          {
+            "diffStats": {
+              "linesAdded": 33,
+              "linesDeleted": 3
+            },
+            "interval": 25
+          },
+          {
+            "diffStats": {
+              "linesAdded": 4,
+              "linesDeleted": 2
+            },
+            "interval": 9
+          },
+          {
+            "diffStats": {
+              "linesAdded": 14,
+              "linesDeleted": 0
+            },
+            "interval": 28
+          },
+          {
+            "diffStats": {
+              "linesAdded": 0,
+              "linesDeleted": 0
+            },
+            "interval": 1112
+          }
+        ],
+        "medianEditIntervalSec": 26.5
+      },
+      "sourceHints": {
+        "possiblePaste": false,
+        "suspiciousJump": true
+      }
+    },
+    {
+      "file": "frontend/src/features/tasks/task.ts",
+      "requirementId": 902,
+      "lastModified": "2026-10-30T15:22:14.753Z",
+      "activity": {
+        "idleBreaks": 0,
+        "intervalSamples": [
+          {
+            "interval": 0,
+            "diffStats": {
+              "linesAdded": 118,
+              "linesDeleted": 0
+            }
+          },
+          {
+            "diffStats": {
+              "linesAdded": 118,
+              "linesDeleted": 0
+            },
+            "interval": 29
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 1
+            },
+            "interval": 79
+          },
+          {
+            "diffStats": {
+              "linesAdded": 2,
+              "linesDeleted": 1
+            },
+            "interval": 5
+          },
+          {
+            "diffStats": {
+              "linesAdded": 28,
+              "linesDeleted": 0
+            },
+            "interval": 34
+          }
+        ],
+        "medianEditIntervalSec": 29
+      },
+      "sourceHints": {
+        "possiblePaste": true,
+        "suspiciousJump": false
+      }
+    },
+    {
+      "file": "frontend/src/features/tasks/task.svelte",
+      "requirementId": 902,
+      "lastModified": "2026-10-30T15:30:49.502Z",
+      "activity": {
+        "idleBreaks": 0,
+        "intervalSamples": [
+          {
+            "interval": 0,
+            "diffStats": {
+              "linesAdded": 148,
+              "linesDeleted": 0
+            }
+          },
+          {
+            "diffStats": {
+              "linesAdded": 120,
+              "linesDeleted": 0
+            },
+            "interval": 211
+          }
+        ],
+        "medianEditIntervalSec": 105.5
+      },
+      "sourceHints": {
+        "possiblePaste": true,
+        "suspiciousJump": false
+      }
+    },
+    {
+      "file": "frontend/src/components/taskCard.svelte",
+      "requirementId": 902,
+      "lastModified": "2026-10-30T15:43:43.375Z",
+      "activity": {
+        "idleBreaks": 1,
+        "intervalSamples": [
+          {
+            "interval": 0,
+            "diffStats": {
+              "linesAdded": 88,
+              "linesDeleted": 0
+            }
+          },
+          {
+            "diffStats": {
+              "linesAdded": 1,
+              "linesDeleted": 0
+            },
+            "interval": 780
+          },
+          {
+            "diffStats": {
+              "linesAdded": 1,
+              "linesDeleted": 0
+            },
+            "interval": 15
+          }
+        ],
+        "medianEditIntervalSec": 15
+      },
+      "sourceHints": {
+        "possiblePaste": false,
+        "suspiciousJump": true
+      }
+    },
+    {
+      "file": "frontend/src/components/TaskForm.svelte",
+      "requirementId": 902,
+      "lastModified": "2026-10-30T16:27:15.002Z",
+      "activity": {
+        "idleBreaks": 1,
+        "intervalSamples": [
+          {
+            "interval": 0,
+            "diffStats": {
+              "linesAdded": 29,
+              "linesDeleted": 0
+            }
+          },
+          {
+            "diffStats": {
+              "linesAdded": 1,
+              "linesDeleted": 1
+            },
+            "interval": 3429
+          },
+          {
+            "diffStats": {
+              "linesAdded": 1,
+              "linesDeleted": 1
+            },
+            "interval": 4
+          }
+        ],
+        "medianEditIntervalSec": 4
+      },
+      "sourceHints": {
+        "possiblePaste": false,
+        "suspiciousJump": false
+      }
+    }
+  ]
+}
