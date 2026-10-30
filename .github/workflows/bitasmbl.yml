@@ -120,15 +120,15 @@ jobs:
       - name: Send to backend
         if: github.event.head_commit.message != 'bitasmbl:token-check' && github.event.head_commit.message != 'bitasmbl:remove-token-check' 
         env:
-          PROJECT_APPLICATION_LINKED_REPO_ID: ${ steps.meta.outputs.project_application_linked_repo_id }
-          PROJECT_APPLICATION_ID: ${ steps.meta.outputs.project_application_id }
-          REQUIREMENT_ID: ${ steps.meta.outputs.requirement_id }
-          ACTIVITY_META: ${ steps.meta.outputs.activity_data }
-          REPO: ${ github.repository }
-          BASE_SHA: ${ github.event.before }
-          COMMIT_SHA: ${ github.sha }
+          PROJECT_APPLICATION_LINKED_REPO_ID: ${{ steps.meta.outputs.project_application_linked_repo_id }}
+          PROJECT_APPLICATION_ID: ${{ steps.meta.outputs.project_application_id }}
+          REQUIREMENT_ID: ${{ steps.meta.outputs.requirement_id }}
+          ACTIVITY_META: ${{ steps.meta.outputs.activity_data }}
+          REPO: ${{ github.repository }}
+          BASE_SHA: ${{ github.event.before }}
+          COMMIT_SHA: ${{ github.sha }}
           BITASMBL_TOKEN: ${{ secrets.BITASMBL_TOKEN }}
-          GITHUB_TOKEN: ${ github.token }
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           PAYLOAD=$(jq -n \
             --arg projectApplicationLinkedRepoId "$PROJECT_APPLICATION_LINKED_REPO_ID" \
