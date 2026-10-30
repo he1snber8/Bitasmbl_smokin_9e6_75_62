@@ -1,7 +1,9 @@
-const express = requir("express");
+const express = require("express");
 const router = express.Router();
 
-router.get("/", (req, res) => {
+router.get("/", (request, res) => {
+  console.log(request, "hahhaha");
+
   res.send("User list");
 });
 
